@@ -40,7 +40,7 @@ const TemplateWrapper = ({ children }) => (
     }
   `}
   render={data => (
-    <div className="container robert">
+    <div className="container robert2">
       <HelmetDatoCms
         favicon={data.datoCmsSite.faviconMetaTags}
         seo={data.datoCmsHome.seoMetaTags}
